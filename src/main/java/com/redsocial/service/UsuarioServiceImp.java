@@ -20,4 +20,10 @@ public class UsuarioServiceImp implements UsuarioService {
 		return dao.findAll();
 	}
 
+	@Override
+	public Usuario insertaActualiza(Usuario obj) {
+		// TODO Auto-generated method stub
+		return dao.save(obj);
+	}
+
 }

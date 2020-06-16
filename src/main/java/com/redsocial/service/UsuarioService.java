@@ -7,5 +7,6 @@ import com.redsocial.entidad.Usuario;
 public interface UsuarioService {
 
 	public List<Usuario> listarTodos();
+	public Usuario insertaActualiza(Usuario obj);
 	
 }
